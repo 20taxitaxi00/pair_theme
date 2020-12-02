@@ -18,3 +18,15 @@ function slideSwitch() {
  $(function() {
     setInterval( "slideSwitch()", 5000 );
  });
+
+ $(function(){
+   $('.blog-item').mouseover(function(){
+      $('.slidetext').fadeIn();
+   });
+ });
+
+ $(function(){
+   $('.blog-item').mouseleave(function(){
+      $('.slidetext').fadeOut();
+   });
+ });

@@ -68,6 +68,22 @@ hr {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+.slidetext {
+  display: none;
+  align-items: center;
+  width: 85%;
+  position: absolute;
+  color: #fff;
+  background: rgba(0, 0, 0, .5);
+  font-size: 18px;
+  padding: 15px 0 15px 0;
+  border-bottom: 0 solid;
+}
+
+/* .slidetext:hover {
+  display: block;
+} */
 /* blog end */
 
 /* info & form */
