@@ -51,12 +51,44 @@
 /* introduction end */
 
 /* blog */
+.col-6 .img-fluid {
+    height: 125px;
+}
+
+.blog {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+hr {
+    height:0px;
+    border-radius: 2px;
+    border: 2px solid hsl(0, 0%, 60%);
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /* blog end */
 
 /* info & form */
+.news hr, .contact hr {
+   width: 100%;
+}
 /* info & form end */
 
 /* footer */
+.footer {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.footer .nav-link {
+    color: aliceblue;
+}
+
+.footer .h5 {
+    color: aliceblue;
+}
 /* footer end */
 
 
