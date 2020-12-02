@@ -37,3 +37,24 @@ $(function(){
       $('body , html').animate({scrollTop:0},1000);
    });
 });
+
+$(function(){
+   // ハンバーガー
+   $('#q7-btn').on('click',function(){
+		let isActive = $(this).hasClass('on');
+		toggleDrower(isActive);
+	});
+
+	// ドロワー
+	function toggleDrower(isActive) {
+	    $('.js-hamburger')
+	    if (isActive) {
+	      $('#drower-bg').fadeOut(600);
+	    } else {
+	      $('#drower-bg').fadeIn(600);
+	    }
+	    $('.js-hamburger').toggleClass('on');
+	    $('.js-drower').toggleClass('on');
+	  }
+
+});
