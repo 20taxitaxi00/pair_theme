@@ -17,16 +17,34 @@ function slideSwitch() {
  
  $(function() {
     setInterval( "slideSwitch()", 5000 );
- });
 
- $(function(){
-   $('.blog-item').mouseover(function(){
+   //  blogのテキストをフェードイン
+    $('.blog-item').mouseover(function(){
       $('.slidetext').fadeIn();
    });
- });
-
- $(function(){
+   // カーソル離れるとフェードアウト
    $('.blog-item').mouseleave(function(){
       $('.slidetext').fadeOut();
    });
+
+    // ハンバーガーメニュー
+	$('#q7-btn').on('click',function(){
+		let isActive = $(this).hasClass('on');
+		toggleDrower(isActive);
+   });
+   
+	// ドロワー
+	function toggleDrower(isActive) {
+	    $('.js-hamburger')
+	    if (isActive) {
+         $('#drower-bg').fadeOut(400);
+	    } else {
+	      $('#drower-bg').fadeIn(400);
+	    }
+	    $('.js-hamburger').toggleClass('on');
+	    $('.js-drower').toggleClass('on');
+	  }
+
  });
+
+ 
