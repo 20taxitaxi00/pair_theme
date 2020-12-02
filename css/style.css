@@ -123,11 +123,14 @@ hr {
     #slideshow {
       width: 100vw;
       height: 60vh;
-      align-items:center;
+      margin-right:0px;
     }
     #slideshow img {
       width: 100vw;
       height: 55vh;
+      margin-right:0px;
+      margin-left:40px;
+      align-items: center;
     }  
 }
   
@@ -146,6 +149,7 @@ hr {
     #slideshow img {
       width: 100vw;
       height: 60vw;
+      margin-left:0px;
     }
 }
   
