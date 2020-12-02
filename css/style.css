@@ -122,11 +122,12 @@ hr {
     }
     #slideshow {
       width: 100vw;
-      height: 65%;
+      height: 60vh;
+      align-items:center;
     }
     #slideshow img {
       width: 100vw;
-      height: 75%;
+      height: 55vh;
     }  
 }
   
@@ -135,14 +136,16 @@ hr {
     body {
       min-width: 375px;
       max-width: 480px;
+      margin-bottom:50px;
     }
     #slideshow {
       width: 100vw;
-      height: 55%;
+      height: 55vw;
+      margin-bottom:75px;
     }
     #slideshow img {
       width: 100vw;
-      height: 60%;
+      height: 60vw;
     }
 }
   
