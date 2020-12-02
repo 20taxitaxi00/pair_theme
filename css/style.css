@@ -124,6 +124,7 @@ hr {
       width: 100vw;
       height: 60vh;
       margin-right:0px;
+      margin-bottom: 50px;
     }
     #slideshow img {
       width: 100vw;
@@ -132,6 +133,19 @@ hr {
       margin-left:40px;
       align-items: center;
     }  
+
+    .blog {
+      margin-bottom: 70px;
+    }
+
+    .blog .col-6 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .blog .slidetext {
+      width: 100%;
+    }
 }
   
   /*スマートフォン*/
@@ -150,6 +164,15 @@ hr {
       width: 100vw;
       height: 60vw;
       margin-left:0px;
+    }
+
+    .blog .col-6 {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    .blog .slidetext {
+      width: 90%;
     }
 }
   
