@@ -58,3 +58,44 @@
 
 /* footer */
 /* footer end */
+
+
+/* responsive */
+
+/*小型PC*/
+@media screen and (max-width: 1280px) {
+    
+  }
+  
+  /*タブレット*/
+  @media screen and (max-width: 960px) {
+    body {
+      min-width: 850px;
+    }
+    #slideshow {
+      width: 100vw;
+      height: 65%;
+    }
+    #slideshow img {
+      width: 100vw;
+      height: 75%;
+    }  
+}
+  
+  /*スマートフォン*/
+  @media screen and (max-width: 480px) {
+    body {
+      min-width: 375px;
+      max-width: 480px;
+    }
+    #slideshow {
+      width: 100vw;
+      height: 55%;
+    }
+    #slideshow img {
+      width: 100vw;
+      height: 60%;
+    }
+}
+  
+/* responsive end */
