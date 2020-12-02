@@ -1,10 +1,49 @@
+*{
+    color:#474b42;
+    font-family:PT Sans,Tahoma,YuMincho;
+}
+
 /* header */
+#company_name{
+    font-family:PT Sans,Tahoma,
+}
+.nav-link{
+    color:#474b42;
+}
 /* header end */
 
 /* page_title */
+#slideshow {
+    position: relative;
+    width:  640px; /* 画像の横幅に合わせて記述 */
+    height: 270px; /* 画像の高さに合わせて記述 */
+ }
+ #slideshow img {
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: 8;
+    opacity: 0.0;
+    margin-bottom:70px;
+ }
+ #slideshow img.active {
+    z-index: 10;
+    opacity: 1.0;
+ }
+ #slideshow img.last-active {
+    z-index: 9;
+ }
+
 /* page_title end */
 
 /* introduction */
+.fdb-block{
+    margin-bottom:70px;
+}
+.lead{
+    font-size:15px;
+    
+}
 /* introduction end */
 
 /* blog */
