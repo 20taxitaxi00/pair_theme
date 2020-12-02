@@ -30,3 +30,10 @@ function slideSwitch() {
       $('.slidetext').fadeOut();
    });
  });
+
+//  topに戻る動き
+$(function(){
+   $('.home').on('click',function(){
+      $('body , html').animate({scrollTop:0},1000);
+   });
+});
