@@ -199,9 +199,7 @@ hr {
 /* responsive */
 
 /*小型PC*/
-@media screen and (max-width: 1280px) {
-    
-  }
+@media screen and (max-width: 1280px) {}
   
   /*タブレット*/
   @media screen and (max-width: 960px) {
@@ -234,7 +232,7 @@ hr {
     .blog .slidetext {
       width: 100%;
     }
-}
+  }
   
   /*スマートフォン*/
   @media screen and (max-width: 480px) {
@@ -247,12 +245,12 @@ hr {
     .fixed {
       position: fixed;
       width: 100%;
-      z-index: 1;
-      margin-top: 20px;
+      /* z-index: 1; */
+      margin-top: -60px;
     }
 
-    .container h2 {
-      color: aliceblue;
+    .drower-bg .drower {
+      z-index: 1;
     }
 
     .hamburger {
@@ -262,17 +260,17 @@ hr {
       margin-bottom: -5px;
     }
 
-    .hamburger span,
+    /* .hamburger span,
     .hamburger span:before,
     .hamburger span:after{
       background-color: aliceblue;
-    }
+    } */
      
 
     #slideshow {
       width: 100vw;
       height: 55vw;
-      /* margin-top: 100px; */
+      margin-top: 60px;
       margin-bottom:75px;
     }
 
@@ -299,7 +297,6 @@ hr {
     .blog .slidetext {
       width: 90%;
     }
-
-}
+  }
   
 /* responsive end */
