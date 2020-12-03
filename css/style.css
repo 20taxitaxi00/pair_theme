@@ -81,7 +81,7 @@
   right: -200px;
   height: 100vh;
   width: 200px;
-  background-color: rgba(8, 8, 8, .9);
+  background-color: rgba(8, 8, 8, .5);
   transition: all 600ms 0s ease;
 }
 
@@ -244,6 +244,17 @@ hr {
       margin-bottom:50px;
     }
 
+    .fixed {
+      position: fixed;
+      width: 100%;
+      z-index: 1;
+      margin-top: 20px;
+    }
+
+    .container h2 {
+      color: aliceblue;
+    }
+
     .hamburger {
       display: block;
       margin-top: 15px;
@@ -251,9 +262,17 @@ hr {
       margin-bottom: -5px;
     }
 
+    .hamburger span,
+    .hamburger span:before,
+    .hamburger span:after{
+      background-color: aliceblue;
+    }
+     
+
     #slideshow {
       width: 100vw;
       height: 55vw;
+      /* margin-top: 100px; */
       margin-bottom:75px;
     }
 
