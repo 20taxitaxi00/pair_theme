@@ -182,9 +182,14 @@ hr {
 .news hr, .contact hr {
    width: 100%;
 }
+.btn-primary{
+  background-color:#474b42;
+  border-color: #474b42;
+}
 /* info & form end */
 
 /* footer */
+
 .footer {
     margin-top: 100px;
     margin-bottom: 0;
@@ -263,7 +268,7 @@ hr {
     .hamburger {
       display: block;
       margin-top: -110px;
-      margin-right: 0;
+      margin-right: 15px;
       margin-bottom: -5px;
     }
    
