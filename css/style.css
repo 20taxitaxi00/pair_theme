@@ -4,9 +4,13 @@
 }
 
 /* header */
-#company_name{
+.company_name{
     font-family:PT Sans,Tahoma;
-    font-weight:bolder;
+    margin-top:50px;
+    margin-bottom:0px;
+}
+.collapse navbar-collapse{
+  margin-top:-30px;
 }
 .nav-link{
     color:#474b42;
@@ -244,6 +248,10 @@ hr {
       margin-bottom:50px;
     }
 
+    .company_name{
+      margin-top:25px;
+    }
+    
     .fixed {
       position: fixed;
       width: 100%;
@@ -252,7 +260,7 @@ hr {
     }
 
     .container h2 {
-      color: aliceblue;
+      /*color: aliceblue;*/
     }
 
     .hamburger {
@@ -265,9 +273,12 @@ hr {
     .hamburger span,
     .hamburger span:before,
     .hamburger span:after{
-      background-color: aliceblue;
+      /*background-color: aliceblue;*/
     }
    
+   #q7-btn,#drower-bg, .drower js-drower{
+    z-index: 2;
+   }
 
     #slideshow {
       width: 100vw;
