@@ -6,11 +6,11 @@
 /* header */
 .company_name{
     font-family:PT Sans,Tahoma;
-    margin-top:50px;
+    margin-top:30px;
     margin-bottom:0px;
 }
 .collapse navbar-collapse{
-  margin-top:-30px;
+  margin-top:-40px;
 }
 .nav-link{
     color:#474b42;
@@ -251,7 +251,7 @@ hr {
     .company_name{
       margin-top:25px;
     }
-    
+
     .fixed {
       position: fixed;
       width: 100%;
@@ -265,7 +265,7 @@ hr {
 
     .hamburger {
       display: block;
-      margin-top: 15px;
+      margin-top: -110px;
       margin-right: 0;
       margin-bottom: -5px;
     }
