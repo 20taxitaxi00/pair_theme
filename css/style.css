@@ -7,7 +7,7 @@
 .company_name{
     font-family:PT Sans,Tahoma;
     margin-top:30px;
-    margin-bottom:0px;
+    margin-bottom:-20px;
 }
 .collapse navbar-collapse{
   margin-top:-40px;
@@ -250,6 +250,7 @@ hr {
 
     .company_name{
       margin-top:25px;
+      margin-bottom:0px;
     }
 
     .fixed {
